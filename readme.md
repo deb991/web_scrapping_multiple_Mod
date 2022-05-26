@@ -45,8 +45,57 @@ It looks like there’s a lot going on in this forloop, but it’s just a little
 4. You extract the text by slicing html_text from text_start_idx to text_end_idx and assign this string to raw_text.
 5. You remove any whitespace from the beginning and end of raw_text using .strip() and assign the result to clean_text.
 
-*Result:*
+<h2>Code execution Steps</h2>
+
+``python.exe C:/Users/002CSC744/Documents/web_scrapping_mult/web_scarp.py``
+
+``python.exe C:/Users/002CSC744/Documents/web_scrapping_mult/bs4_1.py``
+
+``python.exe C:/Users/002CSC744/Documents/web_scrapping_mult/bs4_2.py``
+
+``python.exe C:/Users/002CSC744/Documents/web_scrapping_mult/bs4_3.py``
+
+
+<h3>**Result:**</h3>
+
+<h4>web_scarp.py</h4>
 
 `Dionysus`
 
 `Wine`
+
+<h4>bs4_1.py</h4>
+
+``soup Image Find:	 <img src="/static/dionysus.jpg"/>``
+
+``Link:	 http://olympus.realpython.org//profiles/aphrodite``
+
+``Link:	 http://olympus.realpython.org//profiles/poseidon``
+
+``Link:	 http://olympus.realpython.org//profiles/dionysus``
+
+<h4>bs4_2.py</h4>
+
+``Test URL:	 http://olympus.realpython.org/login``
+
+``Title:	 <title>All Profiles</title>``
+
+<h4>bs4_3.py</h4>
+``Dice outcome2:	 2``
+
+``Dice outcome2:	 3``
+
+``Dice outcome2:	 5``
+
+``Dice outcome2:	 3``
+
+``Dice outcome2:	 5``
+
+``Dice outcome2:	 4``
+
+``Dice outcome2:	 6``
+
+``Dice outcome2:	 3``
+
+``Dice outcome2:	 3``
+
